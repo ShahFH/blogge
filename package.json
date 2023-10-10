@@ -1,5 +1,5 @@
 {
-  "name": "astro-paper",
+  "name": "blogge",
   "version": "3.0.0",
   "private": false,
   "scripts": {
@@ -25,6 +25,7 @@
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "satori": "^0.10.8",
+    "shiki": "^0.14.4",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
   },
