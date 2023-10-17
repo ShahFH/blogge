@@ -1,5 +1,7 @@
 import type { SocialIcons } from "../types";
-
+{
+  /**All Social links Icons here */
+}
 const socialIcons: SocialIcons = {
   Github: `<svg
     xmlns="http://www.w3.org/2000/svg"
