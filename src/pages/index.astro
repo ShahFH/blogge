@@ -27,32 +27,27 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <div style="display: flex; align-items: center; padding: 10px;">
         <img src="Profile.png" height="60" width="60" style="border-radius: 50%;" />
         <div style="margin-left: 10px;">
-          <h4 style="font-size: 20px; font-weight: 600; margin: 0; color: #00e870; text-transform: uppercase; ">Faisal Hamdard</h4>
+          <h1 style="font-size: 20px; font-weight: 600; margin: 0; text-transform: uppercase; ">Faisal Hamdard</h1>
           <h5 style="font-size: 18px; color: #888; margin: 0;">Software Developer - full stack</h5>
         </div>
       </div>
-
-      <h1 class="mr-2">Shah Faisal</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >👋
-      </a>
+      <h1 class="mr-2">Hi, I'm Shah </h1>
 
       <p>
-        blogge is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        welcome to my digital space! Here, I share my journey
+        through the world of technology and software development.
+        You'll discover a treasure trove of insights, experiences,
+        and advice that go beyond just coding and extend into personal
+        and professional growth.
+      </p>
+      <p>
+        Come, explore the digital world with me!
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            
             <Socials />
           </div>
         )
